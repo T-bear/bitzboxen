@@ -1,0 +1,74 @@
+.table-large-div {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    z-index: 10;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e3ac2b;
+}
+
+.table-large-div:hover {
+    box-shadow: 0 0 10px #4a4a4a;
+  }
+
+.table-small-div {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    z-index: 10;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e3ac2b;
+}
+
+.table-small-div:hover {
+    box-shadow: 0 0 10px #4a4a4a;
+  }
+
+#tableOne {
+    top: 700px;
+    left: 250px;
+    width: 200px;
+    height: 100px;
+}
+
+#tableTwo {
+    top: 200px;
+    left: 250px;
+}
+
+#tableThree {
+    top: 310px;
+    left: 600px;
+}
+
+#tableFour{
+    top: 800px;
+    left: 600px;
+}
+
+#tableFive{
+    top: 800px;
+    left: 700px;
+}
+
+#tableSix{
+    top: 800px;
+    left: 800px;
+}
+
+#tableSeven{
+    top: 800px;
+    left: 900px;
+}

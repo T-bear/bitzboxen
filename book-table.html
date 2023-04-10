@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Min responsiva sida</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Lägg till Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Lägg till Popper.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<!-- Lägg till Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="m-4">
+        <nav class="navbar navbar-custom">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <h1>Bitzboxen</h1>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <!--Table setup for big tables-->
+    <div class="table-large-div" id="tableOne" onmouseover="changeColor(this)" onmouseout="resetColor(this)"></div>
+
+    <div class="table-large-div" id="tableTwo"></div>
+
+    <div class="table-large-div" id="tableThree"></div>
+
+
+    <!--Table setup for small tables-->
+
+    <div class="table-small-div" id="tableFour" onmouseover="changeColor(this)" onmouseout="resetColor(this)"></div>
+    <div class="table-small-div" id="tableFive"></div>
+    <div class="table-small-div" id="tableSix"></div>
+    <div class="table-small-div" id="tableSeven"></div>
+
+    <canvas id="myCanvas" width="1200" height="800"></canvas>
+
+    
+
+	<script>
+		var canvas = document.getElementById("myCanvas");
+		var ctx = canvas.getContext("2d");
+
+		// Rita en rektangel
+		ctx.fillStyle = "#efbc46";
+		ctx.fillRect(50, 50, 1200, 800);
+        
+        
+		ctx.fillStyle = "#4a4a4a";
+		ctx.fillRect(50, 400, 800, 20);
+
+
+        function changeColor(element) {
+            element.style.backgroundColor = "#4a4a4a";
+            element.textContent = "BOKAD";
+        }
+
+        function resetColor(element) {
+            element.style.backgroundColor = "white";
+            element.textContent = "";
+        }
+	</script>
+</body>
+</html>

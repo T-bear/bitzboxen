@@ -1,0 +1,112 @@
+body{
+    background-color: #292522;
+    overflow-x: hidden;
+}
+.navbar-custom{
+    background-color: #4a4a4a;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.navbar-brand{    
+    color: #e3ac2b;
+}
+
+.aside{
+    background-color: #efbc46;
+    height: 100%;
+    margin-left: 10%;
+    padding: 5%;
+    border-radius: 30px 0px 0px 30px;
+}
+.aside-button{
+    background-color: #efbc46;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: #efbc46;
+    padding: 5%;
+    height: 100%;
+    margin-right: 10%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.info{
+    background-color: #efbc46;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.info-button {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+#discord-logo {
+    width: 100px; /* Ange önskad bredd här */
+    height: auto; /* Behåll proportionerna */
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 40%; /* 1:1 Aspect Ratio */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.row{
+    margin-bottom: 5%;
+}
+
+.col {
+    background-color: #4a4a4a;
+    margin: 5%;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.col > img{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.button-book {
+    background-color: #4a4a4a; /* Green */
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .button-book:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
